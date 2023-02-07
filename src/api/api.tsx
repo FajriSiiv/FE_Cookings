@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const baseUrl = "http://localhost:5000" || "https://backend-cooking.vercel.app";
+const baseUrl = "https://backend-cooking.vercel.app";
 
 const apiUrl = axios.create({
   baseURL: baseUrl,
